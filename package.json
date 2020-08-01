@@ -1,0 +1,27 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "This is just for learning git and nodejs",
+  "main": "index.html",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sk6298/git-test.git"
+  },
+  "author": "shubham kabra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sk6298/git-test/issues"
+  },
+  "homepage": "https://github.com/sk6298/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
